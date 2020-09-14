@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background:   #D3D3D3;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #666;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #39F;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color:#F36;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color:   #99C;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color:#99C;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #0C9;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('https://www.w3schools.com/css/searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 50%;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>My Website</h1>
+  <p>WEelcome to website fika</p>
+</div>
+
+<div class="topnav">
+
+    <a href="#red">Home</a>
+  
+    <a href="#green">Galeri</a>
+    
+    <a href="#blue">Contact</a>
+  
+    </div>
+    <div id="red"></div>   
+    <div id="green"></div>
+    <div id="blue"></div>
+ <!--  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#">Link</a> -->
+  <input type="text" name="" style="float: right;">
+  <!-- <a href="#" style="float:right">Link</a> -->
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2></h2>
+      <h5></h5>
+      <div class="fakeimg" style="height:200px;"> <img src="escream.jpg"align="left" width="750" height="140"></div>
+      <p>MORESCREAMSHOP</p>
+      <p>Morescream shop adalah sebuah toko ice cream yang akan dirintis untuk bisnis pemula dari fika nuril  hamdiyah tujuan didirikanya bisnis ini adalah karena banyaknya pemuda maupun orang tua yang sangt minat dengan ice cream,dan diharapkan nantinya usha ini dapat berkembang dengan baik.</p>
+    </div>
+    <div class="card">
+      <h2>My Data Diri <img src="orang.jpg" width="50" height="40"></h2>
+      
+      <h5></h5>
+      <div class="fakeimg" style="height:200px;">
+        <img src="IMG_20191006_112138_763.jpg"align="left" width="180" height="180"></div>
+      <p></p>
+      <b><td colspan="2" width="25%" class="text-title">BIODATA</td></b>
+      <td class="boxed-tepi"></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td colspan="2"class="isi.data" >
+        <ul>
+        <li>Nama   :Fika Nuril Hamdiyah <br></li>
+        <li>Jurusan :Teknik Informatika <br></li>
+        <li>Nim : 201913022</li>
+        <li>Alamat : Jl.Letnan Boyak,No 26 Bangkinang, Riau</li>
+      </td>
+      
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <b><td colspan="2"width="25%" class="text-title">PENDIDIKAN</td></b>
+      <td></td>
+    </tr> 
+    <tr>
+      <td></td>
+      <td colspan="2"class="isi.data">
+        <ul>
+          <li>SD Negeri 03 Sialang Palas <br></li>
+          <li>Smp Negeri 2 Lubuk Dalam <br></li>
+          <li>SMK Negeri 1 Lubuk Dalam <br></li>
+          <li>D3 Teknik Informatika Politeknik Kampar</li>
+        </ul>
+        </td>
+      <td></td>
+
+    </tr>
+    <tr>
+      <td></td>
+      <b><td colspan="3" width="25%" class="text-title">PENGALAMAN</td></b>
+      <td></td>
+    </tr>
+      <tr>
+      <td></td>
+      <td colspan="3">
+        <ul>
+        <li>Sekertaris smp</li>
+        <li>Lomba o2sn menari tingkat kecamatan</li>
+        <li>Anggota Karang Taruna</li>
+        </ul>
+         </td>
+         <b><td colspan="2" width="25%" class="text-title">ORGANISASI</td></b>
+      <td colspan="2">
+        <ul> 
+          <li>Pengurus seni poiteknik kampar</li>
+          <li>Anggota komisi pemilihan raya</li>
+        </ul>
+        </td>
+      <td></td>
+    </tr>
+      <tr>
+      <td></td>
+      <b><td colspan="5" width="25%" class="text-title">KEAHLIAN</td></b>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td colspan="2">
+        <ul>
+          <li>Design Grafis <br></li> 
+          <li>Memasak <br></li>
+          <li>Menari <br></li>
+        </ul>
+              
+      </td>
+      <p></p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <div class="fakeimg" style="height:100px;"> <img src="IMG_20190619_173328_501.jpg" width="80" height="80"></div>
+      <p>Perkenalkan nama saya adalah fika nuril hamdiyah saya berasal dari jawa tengah,tepatnya saya lahir di banyumas pada 30-November-2000,tetapi saya dibesarkan di kecamatan lubuk dalam,kab.siak prov.Riau saya merupakan anak pertama dari 3 bersaudara saya memulai pendidikan dari sd 03 sialang palas,smp n 2 lubuk dalam,smk n 1 luabuk dalam dan saat ini saya berkuliah di polteknik kampar,harapan saya kedepanya semoga saya bisa menjadi orang sukses dan dapat membahagiakan kedua orang tua saya,dan tentuny saya dapat menjadi jalan pembuka untuk adik adik saya. </p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="fakeimg"><p><img src="istana siak.jpg" width="100" height="100"></p>Istana Siak sri Indrapura</div>
+      <div class="fakeimg"><p><img src="tangsi belanda.jpg" width="100" height="100"></p>Tangsi Belanda Siak</div>
+      <div class="fakeimg"><p><img src="Jembatan-Bangkinang.jpg" width="100" height="100"></p>Jembatan Bangkinang</div>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+<img src ="instagram.jpg" width="20" height="20">Fikkha_<br>
+<img src ="watsap.jpg" width="20" height="20">085836240917<br>
+<img src ="facebook.jpg" width="20" height="20">FikaNrlhmdyh12
+      <p></p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>CopyRight all fikaHamdiyah13</h2>
+</div>
+
+</body>
+</html>
+
